@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jenga Robot</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Lawrence Onyango </h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="/index.html">About</a></li>
+                        <li><a href="/resume.html">Resume</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="project-details" class="light-bg">
+            <div class="project-container">
+                <div class="title-date">
+                    <h2>Jenga Building Arm</h2>
+                    <h3>Fall 2023</h3>
+                </div>
+
+                <div class="media-container">
+                    <img
+                        src="/files/images/projects/thumbnails/jenga-bot-thumbnail.png"
+                        class="project-media" alt="Project 1">
+                </div>
+                <div class="media-container">
+                    <video width="400px" height="400px" controls>
+                        <source src="/files/videos/rkd_jenga.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                </div>
+
+                <h3>Overview</h3>
+                <p>For this project, we were tasked with controlling a 5-DOF arm to build six layers of Jenga. 
+                </p>
+                <h3>Relevant File</h3>
+                <embed src="/files/other/rkd_jenga.pdf" type="application/pdf"
+                    width="100%" height="900px">
+                <div class="projects-button-container">
+                    <button class="projects-button"
+                        onclick="location.href='/projects.html'">Back to
+                        Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
